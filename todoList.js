@@ -23,7 +23,7 @@ btnAdd.addEventListener('click', () => {
     button2.setAttribute('id', 'btnRemove');
 
     button1.addEventListener('click', () => {
-        p.style.textDecoration = 'line-through'
+        p.style.textDecoration = 'line-through';
     })
 
     button2.addEventListener('click', () => {
