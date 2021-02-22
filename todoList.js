@@ -22,6 +22,8 @@ btnAdd.addEventListener('click', () => {
     button2.innerHTML = '&#10008';
     button2.setAttribute('id', 'btnRemove');
 
+    document.querySelector('#inputs').value = ""
+
     button1.addEventListener('click', () => {
         p.style.textDecoration = 'line-through';
     })
