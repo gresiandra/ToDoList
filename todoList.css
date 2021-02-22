@@ -97,14 +97,6 @@ main {
 }
 
 @media screen and (max-width: 800px){
-    .result {
-        width: 100%;
-        padding: 1rem;
-    }
-}
-
-
-@media screen and (max-width: 576px) {
 
     .add {
         width: 100%;
@@ -114,6 +106,15 @@ main {
     .add button {
         margin-top: 20px;
     }
+
+    .result {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
 
     .result {
         width: 90%;
