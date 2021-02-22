@@ -96,7 +96,34 @@ main {
     border: 2px solid black;
 }
 
+@media screen and (max-width: 800px){
+    .result {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+
 @media screen and (max-width: 576px) {
+
+    .add {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .add button {
+        margin-top: 20px;
+    }
+
+    .result {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
     .result div {
         flex-direction: column;
         justify-content: center;
